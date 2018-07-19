@@ -1,0 +1,36 @@
+<p>
+<a href="https://twitter.com/intent/tweet?text={{ meta.twitter_txt }}&url=https://nc.xn--stefan-hhn-lcb.de{{ current_page.url }}">
+<span class="icon-twitter"/span></a> Diese Seite im eignem Twitteraccount empfehlen.
+</p>
+<p>
+<strong>Besuche auch die anderen Seiten von mir:</strong> 
+<a href="https://www.untergang.de">Linux und Technik</a> oder 
+<a href="https://smarpt.de">Das SmaRPt</a>
+</p>
+<footer class="footer">
+
+
+  <section>
+    <p style="text-align:center">Designed by
+          <a target="_blank" href="https://stefan-höhn.de" title="Das kann der Mensch">{{ current_page.author }}</a>.
+    {% if meta.date %}
+      Erstellt am: {{ meta.date }}
+    {% endif %}      
+  
+
+            <span class="social">
+                  {% for social in meta.social %}
+                    <a href="{{ social.url }}" title="{{ social.title }}"><span class="icon-{{ social.icon }}"></span></a>
+                {% endfor %}
+             </span>
+    </p>
+  </section>
+</footer>
+
+</main>
+<script src="{{ theme_url }}/assets/js/highlight.pack.js"></script>
+<script src="{{ theme_url }}/assets/js/vanilla.js"></script>
+
+</body>
+
+</html>
