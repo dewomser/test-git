@@ -3,7 +3,7 @@ branche mit X sooder
 # Theme und Template Nano 0.9
 commit test mit pgp
 ## Passt zu nextcloud 13 Nano cms -app 
-lala78
+lala78vgvghvhj
 Spezielles Theme um einfache Webseiten zu erstellen  und dann als Twittercard weiter zu leiten
 
 Beispiel [spatzenbrett](https://spatzenbrett.untergang.de)
