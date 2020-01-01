@@ -10,6 +10,6 @@ Beispiel [spatzenbrett](https://spatzenbrett.untergang.de)
 
 1. Basiert auf somecode-theme. Leider ist das orginal Thema auf Github gelöscht
 2. Einige Parameter in Tte müssen angepasst werden. Bilder in assets austauschen
-3. Ich nenne Theme und Template Spatzenbrett.
+3. Ich nenne Theme und Terstrdfsgdsdf mplate Spatzenbrett.
 
 embed + xmlfeed -plugin für Videofilmchen und Sitemap hat bei diesem Theme funktioniert.
