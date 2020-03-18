@@ -1,7 +1,7 @@
 
 
 # Theme und Template Nano 0.9
-lolo98
+lolo98 lolo99
 ## Passt zu nextcloud 13 Nano cms -app 
 lala78
 Spezielles Theme um einfache Webseiten zu erstellen  und dann als Twittercard weiter zu leiten
