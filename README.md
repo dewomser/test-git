@@ -2,6 +2,9 @@ branche mit X sooder
 
 # Theme und Template Nano 0.9
 commit test mit pgp
+
+![Lint Code Base](https://github.com/dewomser/test-git/workflows/Lint%20Code%20Base/badge.svg)
+
 ## Passt zu jhjjkjk 13 Nano cms -app 
 lala78vgvghvhj bnmbhghjg 202020 Januar 2 lolo98
 Spezielles Theme um einfache Webseiten zu erstellen  und dann als Twittercard weiter zu leiten
