@@ -33,4 +33,4 @@ jobs:
       - name: Run a multi-line script
         run:
           echo 17 + 4 =
-          echo echo $(expr 17 + 4)
+          $(expr 17 + 4)
