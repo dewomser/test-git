@@ -1,7 +1,0 @@
- - name: schreibwas
-   uses: DamianReeves/write-file-action
-   with: 
-     path: /lolo.txt
-     contents: |
-        echo "klk"
-     write-mode: append
