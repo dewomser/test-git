@@ -33,4 +33,4 @@ jobs:
     # Relative path to .csv file (example: data/stats.csv)
           path: themes/stats.csv
     # Comma separated list of column titles. Inputs with the same names must be set
-          columns: 1,2,3
+          columns: /home/runner/work/test-git/test-git
