@@ -31,6 +31,6 @@ jobs:
         uses: gr2m/write-csv-file-action@v1.0.0
         with:
     # Relative path to .csv file (example: data/stats.csv)
-          path: data/stats.csv
+          path: themes/stats.csv
     # Comma separated list of column titles. Inputs with the same names must be set
           columns: 1,2,3
