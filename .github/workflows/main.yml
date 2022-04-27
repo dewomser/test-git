@@ -1,5 +1,10 @@
-name: publish-to-twitter
 on: [push]
+
+- name: Tweet to Twitter
+  uses: InfraWay/tweet-action@v1.0.1
+
+
+
 
 jobs:
   build:
