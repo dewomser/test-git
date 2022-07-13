@@ -1,14 +1,19 @@
-name: publish-to-twitter
-on: [push]
+name: Notify twitter
+
+on:
+  workflow_dispatch:
+  release:
+    types: [published]
 
 jobs:
-  build:
+  setup:
     runs-on: ubuntu-latest
     steps:
-      - uses: devigned/go-twitter-action@v1
+      - uses: nearform/github-action-notify-twitter@master
         with:
-          message: "Hey folks we just release a new version of ACME widgets!"
-          apiKey: ${{ secrets.API_KEY }}
-          apiKeySecret: ${{ secrets.API_KEY_SECRET }}
-          accessToken: ${{ secrets.ACCESS_TOKEN }}
-          accessTokenSecret: ${{ secrets.ACCESS_TOKEN_SECRET }}
+          message: |
+            ${{ github.event.repository.name }} ${{ github.event.release.tag_name }} has been released. Check out the release notes: ${{ github.event.release.html_url }}
+          twitter-app-key: ${{ secrets.TWITTER_APP_CONSUMER_API_KEY }}
+          twitter-app-secret: ${{ secrets.TWITTER_APP_CONSUMER_API_SECRET_KEY }}
+          twitter-access-token: ${{ secrets.TWITTER_APP_ACCESS_TOKEN }}
+          twitter-access-token-secret: ${{ TWITTER_APP_ACCESS_TOKEN_SECRET }}
