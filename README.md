@@ -8,7 +8,7 @@ commit test mit pgp
 
 ## Passt zu jhjjkjk 13 Nano cms -app 
 lala78vgvghvhj bnmbhghjg 202020 Januar 2 lolo98 lolo 89
-Spezielles Theme um einfache Webseiten zu erstellen  und dann als Twittercard weiter zu leiten
+Spezielles Theme um einfache Webseiten zu erstellen  und dann als Twittercard weiter zu leiten Brokoli
 
 Beispiel [spatzenbrett](https://spatzenbrett.untergang.de)
 
