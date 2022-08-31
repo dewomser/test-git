@@ -18,4 +18,3 @@ Beispiel [spatzenbrett](https://spatzenbrett.untergang.de)
 3. Ich nenne Theme und Terstrdfsgdsdf mplate Spatzenbrett.
 
 embed + xmlfeed -plugin für Videofilmchen und Sitemap hat bei diesem Theme funktioniert.
- 4EF2EDFB7CC6C77CDBFA28FB12D269492149D1C4
